@@ -1,0 +1,19 @@
+{
+  "name": "sos-dispatch-api",
+  "version": "1.0.0",
+  "private": true,
+  "description": "API de despacho para la app SOS Santa Cruz",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "uuid": "^11.1.0"
+  }
+}

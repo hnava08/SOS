@@ -1,0 +1,699 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A10000010000000000000001 /* SOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000001 /* SOSApp.swift */; };
+		A10000010000000000000002 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000002 /* ContentView.swift */; };
+		A10000010000000000000003 /* SOSTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000003 /* SOSTheme.swift */; };
+		A10000010000000000000004 /* HealthProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000004 /* HealthProfile.swift */; };
+		A10000010000000000000005 /* EmergencyStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000005 /* EmergencyStatus.swift */; };
+		A10000010000000000000006 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000006 /* LocationManager.swift */; };
+		A10000010000000000000007 /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000007 /* MapViewModel.swift */; };
+		A10000010000000000000008 /* HealthProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000008 /* HealthProfileViewModel.swift */; };
+		A10000010000000000000009 /* SOSHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000009 /* SOSHeaderView.swift */; };
+		A1000001000000000000000A /* ETAPanelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000001000000000000000A /* ETAPanelView.swift */; };
+		A1000001000000000000000B /* CriticalInfoBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000001000000000000000B /* CriticalInfoBlock.swift */; };
+		A1000001000000000000000C /* MapScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000001000000000000000C /* MapScreenView.swift */; };
+		A1000001000000000000000D /* FirstAidTipsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000001000000000000000D /* FirstAidTipsView.swift */; };
+		A1000001000000000000000E /* HealthProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000001000000000000000E /* HealthProfileView.swift */; };
+		A1000001000000000000000F /* HealthNewsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000001000000000000000F /* HealthNewsView.swift */; };
+		A10000010000000000000010 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000010 /* SettingsView.swift */; };
+		A10000010000000000000011 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000011 /* Assets.xcassets */; };
+		A10000010000000000000012 /* HomeMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000014 /* HomeMenuView.swift */; };
+		A10000010000000000000013 /* EmergencyTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000015 /* EmergencyTabView.swift */; };
+		A10000010000000000000014 /* EmergencyType.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000016 /* EmergencyType.swift */; };
+		A10000010000000000000015 /* EmergencyFlowViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000017 /* EmergencyFlowViewModel.swift */; };
+		A10000010000000000000016 /* EmergencyTypeSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000018 /* EmergencyTypeSelectionView.swift */; };
+		A10000010000000000000017 /* ConfirmLocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000019 /* ConfirmLocationView.swift */; };
+		A10000010000000000000018 /* DispatchingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000001000000000000001A /* DispatchingView.swift */; };
+		A10000010000000000000019 /* EmergencyFlowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000001000000000000001B /* EmergencyFlowView.swift */; };
+		A1000001000000000000001A /* QuickActionsPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000001000000000000001C /* QuickActionsPanel.swift */; };
+		A1000001000000000000001B /* CallOperatorSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000001000000000000001D /* CallOperatorSheet.swift */; };
+		A1000001000000000000001C /* DispatcherChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000001000000000000001E /* DispatcherChatView.swift */; };
+		A1000001000000000000001D /* EmergencyContactsSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000001000000000000001F /* EmergencyContactsSheet.swift */; };
+		A1000001000000000000001E /* DispatcherChatViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000020 /* DispatcherChatViewModel.swift */; };
+		A1000001000000000000001F /* HealthProfileStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000021 /* HealthProfileStore.swift */; };
+		A10000010000000000000020 /* EditCriticalInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000022 /* EditCriticalInfoView.swift */; };
+		A10000010000000000000021 /* EditContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000023 /* EditContactView.swift */; };
+		A10000010000000000000022 /* EmergencyContactsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000024 /* EmergencyContactsViewModel.swift */; };
+		A10000010000000000000023 /* EmergencyContactsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000025 /* EmergencyContactsView.swift */; };
+		A10000010000000000000024 /* WaitingGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000026 /* WaitingGuide.swift */; };
+		A10000010000000000000025 /* WaitingGuideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000027 /* WaitingGuideView.swift */; };
+		A10000010000000000000026 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000028 /* NotificationManager.swift */; };
+		A10000010000000000000027 /* LocationPermissionBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000029 /* LocationPermissionBanner.swift */; };
+		A10000010000000000000028 /* EmergencyHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000001000000000000002A /* EmergencyHistory.swift */; };
+		A10000010000000000000029 /* EmergencyHistoryStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000001000000000000002B /* EmergencyHistoryStore.swift */; };
+		A1000001000000000000002A /* EmergencyHistoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000001000000000000002C /* EmergencyHistoryViewModel.swift */; };
+		A1000001000000000000002B /* EmergencyHistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000001000000000000002D /* EmergencyHistoryView.swift */; };
+		A1000001000000000000002C /* NetworkMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000001000000000000002E /* NetworkMonitor.swift */; };
+		A1000001000000000000002D /* OfflineBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000001000000000000002F /* OfflineBanner.swift */; };
+		A1000001000000000000002E /* AccessibilitySupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000030 /* AccessibilitySupport.swift */; };
+		A1000001000000000000002F /* AppSettingsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000031 /* AppSettingsStore.swift */; };
+		A10000010000000000000030 /* PrivacySettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000032 /* PrivacySettingsView.swift */; };
+		A10000010000000000000031 /* AuthStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000033 /* AuthStore.swift */; };
+		A10000010000000000000032 /* AuthViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000034 /* AuthViews.swift */; };
+		A10000010000000000000033 /* DispatchModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000035 /* DispatchModels.swift */; };
+		A10000010000000000000035 /* APIDispatchService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000037 /* APIDispatchService.swift */; };
+		A10000010000000000000038 /* KeychainStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000001000000000000003A /* KeychainStore.swift */; };
+		A10000010000000000000039 /* PrivacyConsentStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000001000000000000003B /* PrivacyConsentStore.swift */; };
+		A1000001000000000000003A /* AppLockStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000001000000000000003C /* AppLockStore.swift */; };
+		A1000001000000000000003B /* PrivacyConsentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000001000000000000003D /* PrivacyConsentView.swift */; };
+		A1000001000000000000003C /* DispatchServerConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000001000000000000003E /* DispatchServerConfig.swift */; };
+		A1000001000000000000003D /* AmbulanceSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000001000000000000003F /* AmbulanceSelectionView.swift */; };
+		A1000001000000000000003F /* SOSBrandMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000041 /* SOSBrandMark.swift */; };
+		A10000010000000000000040 /* AmbulanceRescueAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000042 /* AmbulanceRescueAnimation.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A20000010000000000000001 /* SOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SOSApp.swift; sourceTree = "<group>"; };
+		A20000010000000000000002 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A20000010000000000000003 /* SOSTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SOSTheme.swift; sourceTree = "<group>"; };
+		A20000010000000000000004 /* HealthProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthProfile.swift; sourceTree = "<group>"; };
+		A20000010000000000000005 /* EmergencyStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmergencyStatus.swift; sourceTree = "<group>"; };
+		A20000010000000000000006 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		A20000010000000000000007 /* MapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewModel.swift; sourceTree = "<group>"; };
+		A20000010000000000000008 /* HealthProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthProfileViewModel.swift; sourceTree = "<group>"; };
+		A20000010000000000000009 /* SOSHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SOSHeaderView.swift; sourceTree = "<group>"; };
+		A2000001000000000000000A /* ETAPanelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ETAPanelView.swift; sourceTree = "<group>"; };
+		A2000001000000000000000B /* CriticalInfoBlock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CriticalInfoBlock.swift; sourceTree = "<group>"; };
+		A2000001000000000000000C /* MapScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapScreenView.swift; sourceTree = "<group>"; };
+		A2000001000000000000000D /* FirstAidTipsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstAidTipsView.swift; sourceTree = "<group>"; };
+		A2000001000000000000000E /* HealthProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthProfileView.swift; sourceTree = "<group>"; };
+		A2000001000000000000000F /* HealthNewsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthNewsView.swift; sourceTree = "<group>"; };
+		A20000010000000000000010 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		A20000010000000000000011 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A20000010000000000000012 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A20000010000000000000013 /* SOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A20000010000000000000014 /* HomeMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeMenuView.swift; sourceTree = "<group>"; };
+		A20000010000000000000015 /* EmergencyTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmergencyTabView.swift; sourceTree = "<group>"; };
+		A20000010000000000000016 /* EmergencyType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmergencyType.swift; sourceTree = "<group>"; };
+		A20000010000000000000017 /* EmergencyFlowViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmergencyFlowViewModel.swift; sourceTree = "<group>"; };
+		A20000010000000000000018 /* EmergencyTypeSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmergencyTypeSelectionView.swift; sourceTree = "<group>"; };
+		A20000010000000000000019 /* ConfirmLocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmLocationView.swift; sourceTree = "<group>"; };
+		A2000001000000000000001A /* DispatchingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DispatchingView.swift; sourceTree = "<group>"; };
+		A2000001000000000000001B /* EmergencyFlowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmergencyFlowView.swift; sourceTree = "<group>"; };
+		A2000001000000000000001C /* QuickActionsPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickActionsPanel.swift; sourceTree = "<group>"; };
+		A2000001000000000000001D /* CallOperatorSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallOperatorSheet.swift; sourceTree = "<group>"; };
+		A2000001000000000000001E /* DispatcherChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DispatcherChatView.swift; sourceTree = "<group>"; };
+		A2000001000000000000001F /* EmergencyContactsSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmergencyContactsSheet.swift; sourceTree = "<group>"; };
+		A20000010000000000000020 /* DispatcherChatViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DispatcherChatViewModel.swift; sourceTree = "<group>"; };
+		A20000010000000000000021 /* HealthProfileStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthProfileStore.swift; sourceTree = "<group>"; };
+		A20000010000000000000022 /* EditCriticalInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditCriticalInfoView.swift; sourceTree = "<group>"; };
+		A20000010000000000000023 /* EditContactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditContactView.swift; sourceTree = "<group>"; };
+		A20000010000000000000024 /* EmergencyContactsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmergencyContactsViewModel.swift; sourceTree = "<group>"; };
+		A20000010000000000000025 /* EmergencyContactsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmergencyContactsView.swift; sourceTree = "<group>"; };
+		A20000010000000000000026 /* WaitingGuide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaitingGuide.swift; sourceTree = "<group>"; };
+		A20000010000000000000027 /* WaitingGuideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaitingGuideView.swift; sourceTree = "<group>"; };
+		A20000010000000000000028 /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
+		A20000010000000000000029 /* LocationPermissionBanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationPermissionBanner.swift; sourceTree = "<group>"; };
+		A2000001000000000000002A /* EmergencyHistory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmergencyHistory.swift; sourceTree = "<group>"; };
+		A2000001000000000000002B /* EmergencyHistoryStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmergencyHistoryStore.swift; sourceTree = "<group>"; };
+		A2000001000000000000002C /* EmergencyHistoryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmergencyHistoryViewModel.swift; sourceTree = "<group>"; };
+		A2000001000000000000002D /* EmergencyHistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmergencyHistoryView.swift; sourceTree = "<group>"; };
+		A2000001000000000000002E /* NetworkMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkMonitor.swift; sourceTree = "<group>"; };
+		A2000001000000000000002F /* OfflineBanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfflineBanner.swift; sourceTree = "<group>"; };
+		A20000010000000000000030 /* AccessibilitySupport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessibilitySupport.swift; sourceTree = "<group>"; };
+		A20000010000000000000031 /* AppSettingsStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettingsStore.swift; sourceTree = "<group>"; };
+		A20000010000000000000032 /* PrivacySettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacySettingsView.swift; sourceTree = "<group>"; };
+		A20000010000000000000033 /* AuthStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthStore.swift; sourceTree = "<group>"; };
+		A20000010000000000000034 /* AuthViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViews.swift; sourceTree = "<group>"; };
+		A20000010000000000000035 /* DispatchModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DispatchModels.swift; sourceTree = "<group>"; };
+		A20000010000000000000037 /* APIDispatchService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIDispatchService.swift; sourceTree = "<group>"; };
+		A2000001000000000000003A /* KeychainStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainStore.swift; sourceTree = "<group>"; };
+		A2000001000000000000003B /* PrivacyConsentStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyConsentStore.swift; sourceTree = "<group>"; };
+		A2000001000000000000003C /* AppLockStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLockStore.swift; sourceTree = "<group>"; };
+		A2000001000000000000003D /* PrivacyConsentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyConsentView.swift; sourceTree = "<group>"; };
+		A2000001000000000000003E /* DispatchServerConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DispatchServerConfig.swift; sourceTree = "<group>"; };
+		A2000001000000000000003F /* AmbulanceSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmbulanceSelectionView.swift; sourceTree = "<group>"; };
+		A20000010000000000000041 /* SOSBrandMark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SOSBrandMark.swift; sourceTree = "<group>"; };
+		A20000010000000000000042 /* AmbulanceRescueAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmbulanceRescueAnimation.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A30000010000000000000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A40000010000000000000001 = {
+			isa = PBXGroup;
+			children = (
+				A40000010000000000000002 /* SOS */,
+				A40000010000000000000003 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A40000010000000000000002 /* SOS */ = {
+			isa = PBXGroup;
+			children = (
+				A20000010000000000000001 /* SOSApp.swift */,
+				A20000010000000000000002 /* ContentView.swift */,
+				A40000010000000000000004 /* Theme */,
+				A40000010000000000000005 /* Models */,
+				A40000010000000000000006 /* ViewModels */,
+				A40000010000000000000007 /* Views */,
+				A40000010000000000000008 /* Components */,
+				A40000010000000000000009 /* Services */,
+				A20000010000000000000011 /* Assets.xcassets */,
+				A20000010000000000000012 /* Info.plist */,
+			);
+			path = SOS;
+			sourceTree = "<group>";
+		};
+		A40000010000000000000003 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A20000010000000000000013 /* SOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A40000010000000000000004 /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				A20000010000000000000003 /* SOSTheme.swift */,
+				A20000010000000000000030 /* AccessibilitySupport.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		A40000010000000000000005 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A20000010000000000000004 /* HealthProfile.swift */,
+				A20000010000000000000005 /* EmergencyStatus.swift */,
+				A20000010000000000000016 /* EmergencyType.swift */,
+				A20000010000000000000026 /* WaitingGuide.swift */,
+				A2000001000000000000002A /* EmergencyHistory.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A40000010000000000000006 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				A20000010000000000000007 /* MapViewModel.swift */,
+				A20000010000000000000008 /* HealthProfileViewModel.swift */,
+				A20000010000000000000017 /* EmergencyFlowViewModel.swift */,
+				A20000010000000000000020 /* DispatcherChatViewModel.swift */,
+				A20000010000000000000024 /* EmergencyContactsViewModel.swift */,
+				A2000001000000000000002C /* EmergencyHistoryViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		A40000010000000000000007 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A4000001000000000000000E /* Home */,
+				A4000001000000000000000F /* Emergency */,
+				A4000001000000000000000A /* Map */,
+				A4000001000000000000000B /* Profile */,
+				A40000010000000000000010 /* Contacts */,
+				A40000010000000000000011 /* Guide */,
+				A40000010000000000000012 /* History */,
+				A40000010000000000000013 /* Auth */,
+				A4000001000000000000000C /* News */,
+				A4000001000000000000000D /* Settings */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A40000010000000000000008 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				A20000010000000000000009 /* SOSHeaderView.swift */,
+				A2000001000000000000000A /* ETAPanelView.swift */,
+				A2000001000000000000000B /* CriticalInfoBlock.swift */,
+				A20000010000000000000041 /* SOSBrandMark.swift */,
+				A20000010000000000000042 /* AmbulanceRescueAnimation.swift */,
+				A2000001000000000000001C /* QuickActionsPanel.swift */,
+				A20000010000000000000029 /* LocationPermissionBanner.swift */,
+				A2000001000000000000002F /* OfflineBanner.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		A40000010000000000000009 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				A20000010000000000000006 /* LocationManager.swift */,
+				A20000010000000000000021 /* HealthProfileStore.swift */,
+				A20000010000000000000028 /* NotificationManager.swift */,
+				A2000001000000000000002B /* EmergencyHistoryStore.swift */,
+				A2000001000000000000002E /* NetworkMonitor.swift */,
+				A20000010000000000000031 /* AppSettingsStore.swift */,
+				A20000010000000000000033 /* AuthStore.swift */,
+				A2000001000000000000003A /* KeychainStore.swift */,
+				A2000001000000000000003B /* PrivacyConsentStore.swift */,
+				A2000001000000000000003C /* AppLockStore.swift */,
+				A40000010000000000000014 /* Dispatch */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		A40000010000000000000014 /* Dispatch */ = {
+			isa = PBXGroup;
+			children = (
+				A20000010000000000000035 /* DispatchModels.swift */,
+				A20000010000000000000037 /* APIDispatchService.swift */,
+				A2000001000000000000003E /* DispatchServerConfig.swift */,
+			);
+			path = Dispatch;
+			sourceTree = "<group>";
+		};
+		A4000001000000000000000A /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				A2000001000000000000000C /* MapScreenView.swift */,
+				A2000001000000000000000D /* FirstAidTipsView.swift */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		A4000001000000000000000B /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				A2000001000000000000000E /* HealthProfileView.swift */,
+				A20000010000000000000022 /* EditCriticalInfoView.swift */,
+				A20000010000000000000023 /* EditContactView.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		A4000001000000000000000C /* News */ = {
+			isa = PBXGroup;
+			children = (
+				A2000001000000000000000F /* HealthNewsView.swift */,
+			);
+			path = News;
+			sourceTree = "<group>";
+		};
+		A4000001000000000000000D /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				A20000010000000000000010 /* SettingsView.swift */,
+				A20000010000000000000032 /* PrivacySettingsView.swift */,
+				A2000001000000000000003D /* PrivacyConsentView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		A40000010000000000000010 /* Contacts */ = {
+			isa = PBXGroup;
+			children = (
+				A20000010000000000000025 /* EmergencyContactsView.swift */,
+			);
+			path = Contacts;
+			sourceTree = "<group>";
+		};
+		A40000010000000000000011 /* Guide */ = {
+			isa = PBXGroup;
+			children = (
+				A20000010000000000000027 /* WaitingGuideView.swift */,
+			);
+			path = Guide;
+			sourceTree = "<group>";
+		};
+		A40000010000000000000012 /* History */ = {
+			isa = PBXGroup;
+			children = (
+				A2000001000000000000002D /* EmergencyHistoryView.swift */,
+			);
+			path = History;
+			sourceTree = "<group>";
+		};
+		A40000010000000000000013 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				A20000010000000000000034 /* AuthViews.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		A4000001000000000000000E /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				A20000010000000000000014 /* HomeMenuView.swift */,
+				A20000010000000000000015 /* EmergencyTabView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		A4000001000000000000000F /* Emergency */ = {
+			isa = PBXGroup;
+			children = (
+				A20000010000000000000018 /* EmergencyTypeSelectionView.swift */,
+				A20000010000000000000019 /* ConfirmLocationView.swift */,
+				A2000001000000000000001A /* DispatchingView.swift */,
+				A2000001000000000000001B /* EmergencyFlowView.swift */,
+				A2000001000000000000003F /* AmbulanceSelectionView.swift */,
+				A2000001000000000000001D /* CallOperatorSheet.swift */,
+				A2000001000000000000001E /* DispatcherChatView.swift */,
+				A2000001000000000000001F /* EmergencyContactsSheet.swift */,
+			);
+			path = Emergency;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A50000010000000000000001 /* SOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A70000010000000000000003 /* Build configuration list for PBXNativeTarget "SOS" */;
+			buildPhases = (
+				A60000010000000000000001 /* Sources */,
+				A30000010000000000000001 /* Frameworks */,
+				A60000010000000000000002 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SOS;
+			productName = SOS;
+			productReference = A20000010000000000000013 /* SOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A80000010000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 2700;
+				TargetAttributes = {
+					A50000010000000000000001 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = A70000010000000000000001 /* Build configuration list for PBXProject "SOS" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = es;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				es,
+				Base,
+			);
+			mainGroup = A40000010000000000000001;
+			productRefGroup = A40000010000000000000003 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A50000010000000000000001 /* SOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A60000010000000000000002 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10000010000000000000011 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A60000010000000000000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10000010000000000000001 /* SOSApp.swift in Sources */,
+				A10000010000000000000002 /* ContentView.swift in Sources */,
+				A10000010000000000000003 /* SOSTheme.swift in Sources */,
+				A10000010000000000000004 /* HealthProfile.swift in Sources */,
+				A10000010000000000000005 /* EmergencyStatus.swift in Sources */,
+				A10000010000000000000006 /* LocationManager.swift in Sources */,
+				A10000010000000000000007 /* MapViewModel.swift in Sources */,
+				A10000010000000000000008 /* HealthProfileViewModel.swift in Sources */,
+				A10000010000000000000009 /* SOSHeaderView.swift in Sources */,
+				A1000001000000000000000A /* ETAPanelView.swift in Sources */,
+				A1000001000000000000000B /* CriticalInfoBlock.swift in Sources */,
+				A1000001000000000000003F /* SOSBrandMark.swift in Sources */,
+				A10000010000000000000040 /* AmbulanceRescueAnimation.swift in Sources */,
+				A1000001000000000000000C /* MapScreenView.swift in Sources */,
+				A1000001000000000000000D /* FirstAidTipsView.swift in Sources */,
+				A1000001000000000000000E /* HealthProfileView.swift in Sources */,
+				A1000001000000000000000F /* HealthNewsView.swift in Sources */,
+				A10000010000000000000010 /* SettingsView.swift in Sources */,
+				A10000010000000000000012 /* HomeMenuView.swift in Sources */,
+				A10000010000000000000013 /* EmergencyTabView.swift in Sources */,
+				A10000010000000000000014 /* EmergencyType.swift in Sources */,
+				A10000010000000000000015 /* EmergencyFlowViewModel.swift in Sources */,
+				A10000010000000000000016 /* EmergencyTypeSelectionView.swift in Sources */,
+				A10000010000000000000017 /* ConfirmLocationView.swift in Sources */,
+				A10000010000000000000018 /* DispatchingView.swift in Sources */,
+				A10000010000000000000019 /* EmergencyFlowView.swift in Sources */,
+				A1000001000000000000001A /* QuickActionsPanel.swift in Sources */,
+				A1000001000000000000001B /* CallOperatorSheet.swift in Sources */,
+				A1000001000000000000001C /* DispatcherChatView.swift in Sources */,
+				A1000001000000000000001D /* EmergencyContactsSheet.swift in Sources */,
+				A1000001000000000000001E /* DispatcherChatViewModel.swift in Sources */,
+				A1000001000000000000001F /* HealthProfileStore.swift in Sources */,
+				A10000010000000000000020 /* EditCriticalInfoView.swift in Sources */,
+				A10000010000000000000021 /* EditContactView.swift in Sources */,
+				A10000010000000000000022 /* EmergencyContactsViewModel.swift in Sources */,
+				A10000010000000000000023 /* EmergencyContactsView.swift in Sources */,
+				A10000010000000000000024 /* WaitingGuide.swift in Sources */,
+				A10000010000000000000025 /* WaitingGuideView.swift in Sources */,
+				A10000010000000000000026 /* NotificationManager.swift in Sources */,
+				A10000010000000000000027 /* LocationPermissionBanner.swift in Sources */,
+				A10000010000000000000028 /* EmergencyHistory.swift in Sources */,
+				A10000010000000000000029 /* EmergencyHistoryStore.swift in Sources */,
+				A1000001000000000000002A /* EmergencyHistoryViewModel.swift in Sources */,
+				A1000001000000000000002B /* EmergencyHistoryView.swift in Sources */,
+				A1000001000000000000002C /* NetworkMonitor.swift in Sources */,
+				A1000001000000000000002D /* OfflineBanner.swift in Sources */,
+				A1000001000000000000002E /* AccessibilitySupport.swift in Sources */,
+				A1000001000000000000002F /* AppSettingsStore.swift in Sources */,
+				A10000010000000000000030 /* PrivacySettingsView.swift in Sources */,
+				A10000010000000000000031 /* AuthStore.swift in Sources */,
+				A10000010000000000000032 /* AuthViews.swift in Sources */,
+				A10000010000000000000033 /* DispatchModels.swift in Sources */,
+				A10000010000000000000035 /* APIDispatchService.swift in Sources */,
+				A1000001000000000000003C /* DispatchServerConfig.swift in Sources */,
+				A1000001000000000000003D /* AmbulanceSelectionView.swift in Sources */,
+				A10000010000000000000038 /* KeychainStore.swift in Sources */,
+				A10000010000000000000039 /* PrivacyConsentStore.swift in Sources */,
+				A1000001000000000000003A /* AppLockStore.swift in Sources */,
+				A1000001000000000000003B /* PrivacyConsentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A90000010000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = G5R5V928UZ;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A90000010000000000000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = G5R5V928UZ;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A90000010000000000000003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G5R5V928UZ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SOS/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SOS;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.medical";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.santacruz.SOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A90000010000000000000004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G5R5V928UZ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SOS/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SOS;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.medical";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.santacruz.SOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A70000010000000000000001 /* Build configuration list for PBXProject "SOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A90000010000000000000001 /* Debug */,
+				A90000010000000000000002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A70000010000000000000003 /* Build configuration list for PBXNativeTarget "SOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A90000010000000000000003 /* Debug */,
+				A90000010000000000000004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A80000010000000000000001 /* Project object */;
+}

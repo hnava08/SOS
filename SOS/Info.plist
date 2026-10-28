@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>SOS usa tu ubicación durante una emergencia para enviar la ambulancia al punto correcto en Santa Cruz de la Sierra. Si no la permites, podrás marcar tu posición manualmente en el mapa.</string>
+	<key>NSLocationUsageDescription</key>
+	<string>SOS usa tu ubicación durante una emergencia para enviar la ambulancia al punto correcto.</string>
+	<key>NSFaceIDUsageDescription</key>
+	<string>SOS usa Face ID para proteger tu perfil médico, contactos e información de cuenta.</string>
+	<key>NSLocalNetworkUsageDescription</key>
+	<string>SOS se conecta al centro de despacho en la red local para pedir ambulancias.</string>
+	<key>SOSDispatchBaseURL</key>
+	<string>http://192.168.1.205:3000/</string>
+	<key>SOSDispatchAPIKey</key>
+	<string>sos-dev-key</string>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsLocalNetworking</key>
+		<true/>
+	</dict>
+	<key>UIRequiresFullScreen</key>
+	<true/>
+	<key>UILaunchScreen</key>
+	<dict>
+		<key>UIColorName</key>
+		<string>AccentColor</string>
+	</dict>
+</dict>
+</plist>
